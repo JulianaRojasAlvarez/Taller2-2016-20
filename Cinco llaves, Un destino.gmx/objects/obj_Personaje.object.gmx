@@ -49,31 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Gestion de Llaves
-
-LlaveRoja=0;
-LlaveVerde=0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>velocidad=4;
+            <string>///Movimiento del personaje
+velocidad = 4;
 </string>
           </argument>
         </arguments>
@@ -141,71 +118,6 @@ if(keyboard_check_pressed(vk_up)){y=y-velocidad;}
 if(!place_meeting(x,y+velocidad,obj_Cerca))&amp;&amp;(!place_meeting(x,y+velocidad,obj_Puerta))
 {
 if(keyboard_check_pressed(vk_down)){y=y+velocidad;}
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Gestion de Llaves
-
-if(place_meeting(x,y,obj_LlaveRoja))
-{
-with(obj_LlaveRoja){instance_destroy();}
-LlaveRoja=3;
-audio_play_sound(snd_Llave,10,false);
-}
-
-if(place_meeting(x,y,obj_LlaveVerde))
-{
-with(obj_LlaveVerde){instance_destroy();}
-LlaveVerde=2;
-audio_play_sound(snd_Llave,10,false);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Gestion de Puertas
-
-if(LlaveRoja=3)&amp;&amp;(LlaveVerde=2)
-{
-if(place_meeting(x,y,obj_Puerta))
-{
-with(obj_Puerta){instance_destroy();}
-audio_play_sound(snd_Explosion,10,false);
-}
 }
 </string>
           </argument>
@@ -451,6 +363,34 @@ with (obj_Meta){instance_destroy()}
 audio_play_sound(snd_Meta,10,false);
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>541</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sprite_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>spr_PD</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

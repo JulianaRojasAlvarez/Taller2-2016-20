@@ -38,6 +38,7 @@
     <object>objects\obj_LlaveVerde</object>
     <object>objects\obj_SpriteVerde</object>
     <object>objects\obj_Personaje</object>
+    <object>objects\object8</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\R</room>
