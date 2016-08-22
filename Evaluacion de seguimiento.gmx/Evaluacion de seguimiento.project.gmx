@@ -40,6 +40,11 @@
     <object>objects\obj_meta</object>
     <object>objects\obj_explosion</object>
     <object>objects\MrPapa</object>
+    <object>objects\obj_reiniciar</object>
+    <object>objects\obj_sonidoganaste</object>
+    <object>objects\obj_sonidoperdiste</object>
+    <object>objects\obj_bakc</object>
+    <object>objects\obj_balaenemigo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Nivel</room>
