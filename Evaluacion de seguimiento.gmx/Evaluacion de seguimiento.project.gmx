@@ -38,6 +38,8 @@
     <object>objects\obj_enemy1</object>
     <object>objects\obj_enemy2</object>
     <object>objects\obj_meta</object>
+    <object>objects\obj_explosion</object>
+    <object>objects\MrPapa</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Nivel</room>
