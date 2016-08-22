@@ -24,6 +24,9 @@
     <sprite>sprites\spr_enemy2</sprite>
     <sprite>sprites\spr_explosion</sprite>
     <sprite>sprites\spr_meta</sprite>
+    <sprite>sprites\spr_healthbarback</sprite>
+    <sprite>sprites\spr_healtbar</sprite>
+    <sprite>sprites\spr_life</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -45,11 +48,12 @@
     <object>objects\obj_sonidoperdiste</object>
     <object>objects\obj_bakc</object>
     <object>objects\obj_balaenemigo</object>
+    <object>objects\obj_controlador_de_vida</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Nivel</room>
-    <room>rooms\Ganaste</room>
     <room>rooms\Perdiste</room>
+    <room>rooms\Ganaste</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
