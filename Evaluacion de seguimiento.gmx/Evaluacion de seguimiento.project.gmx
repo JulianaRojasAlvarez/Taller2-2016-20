@@ -23,6 +23,7 @@
     <sprite>sprites\spr_enemy1</sprite>
     <sprite>sprites\spr_enemy2</sprite>
     <sprite>sprites\spr_explosion</sprite>
+    <sprite>sprites\spr_meta</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -30,6 +31,19 @@
     <background>background\backgroundWIN</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_block</object>
+    <object>objects\obj_bala</object>
+    <object>objects\obj_personaje</object>
+    <object>objects\obj_enemy1</object>
+    <object>objects\obj_enemy2</object>
+    <object>objects\obj_meta</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Nivel</room>
+    <room>rooms\Ganaste</room>
+    <room>rooms\Perdiste</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
