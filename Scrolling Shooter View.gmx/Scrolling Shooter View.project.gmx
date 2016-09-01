@@ -37,12 +37,11 @@
     <object>objects\obj_myplane</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_enemy1</object>
-    <object>objects\obj_enemy4</object>
     <object>objects\obj_enemy2</object>
     <object>objects\obj_enemy3</object>
+    <object>objects\obj_enemy4</object>
     <object>objects\obj_exploEnemy</object>
     <object>objects\obj_exploPlane</object>
-    <object>objects\obj_controller_enemy</object>
     <object>objects\obj_controller_life</object>
     <object>objects\obj_enemyBullet1</object>
     <object>objects\obj_enemyBullet2</object>

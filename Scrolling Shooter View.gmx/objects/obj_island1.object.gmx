@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///Ubicar aleatoreamente la isla
 if ( y &gt; room_height){
 x = random(room_width);
 y = -65;
