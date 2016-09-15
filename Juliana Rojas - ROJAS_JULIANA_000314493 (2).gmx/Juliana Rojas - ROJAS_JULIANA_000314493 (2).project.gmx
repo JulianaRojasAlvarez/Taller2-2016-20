@@ -26,7 +26,10 @@
     <sprite>sprites\spr_llave4</sprite>
     <sprite>sprites\spr_llave5</sprite>
     <sprite>sprites\spr_puerta</sprite>
-    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\spr_bottom</sprite>
+    <sprite>sprites\spr_life</sprite>
+    <sprite>sprites\sprite19</sprite>
+    <sprite>sprites\spr_balaenemigo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_fondo</background>
@@ -51,10 +54,11 @@
     <object>objects\obj_puerta</object>
     <object>objects\obj_reiniciar</object>
     <object>objects\obj_fondo</object>
-    <object>objects\object16</object>
+    <object>objects\obj_controladordevida</object>
+    <object>objects\obj_meta</object>
+    <object>objects\obj_balaenemigo</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room3</room>
     <room>rooms\Nivel</room>
     <room>rooms\Ganar</room>
     <room>rooms\Perder</room>
